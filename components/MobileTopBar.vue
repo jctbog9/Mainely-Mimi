@@ -1,8 +1,5 @@
 <template>
   <div class="top-bar">
-    <nuxt-link to="/">
-      <img class="logo" src="/pizzaroma-logo.svg"/>
-    </nuxt-link>
     <div class="top-bar-right">
       <font-awesome-icon v-if="!showMobileNav" icon="bars" v-on:click="handleShowNav"/>
       <font-awesome-icon v-else icon="times" v-on:click="handleShowNav"/>
