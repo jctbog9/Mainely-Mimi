@@ -50,7 +50,7 @@ export default {
   flex-direction: row;
   padding: 40px 0px 50px 0px;
   overflow: hidden;
-  background-color: rgba(241,244,249, 0.7)
+  background-color: rgba(241,244,249, 0.85)
 }
 
 .page-content {

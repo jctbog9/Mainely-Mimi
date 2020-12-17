@@ -5,7 +5,9 @@
       <div class="checkout-image-container">
         <img class="checkout-image" src="checkout.jpeg">
       </div>
-      <contact-info />
+      <div class="contact-info-container">
+        <contact-info />
+      </div>
     </div>
 
 <!-- Mobile Section -->
@@ -74,10 +76,17 @@ export default {
 .contact-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
   width: 100%;
+  background-color: #ffffff;
   height: 600px;
+  overflow: hidden;
+}
+
+.contact-info-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-section-mobile {
@@ -89,8 +98,14 @@ export default {
 }
 
 .checkout-image-container {
-  width: 300px;
+  display: flex;
+  width: 50%;
   overflow: hidden;
+  align-items: center;
+}
+
+.checkout-image {
+  width: 100%;
 }
 
 .outside-CTA {
@@ -119,9 +134,6 @@ export default {
   position: absolute;
 }
 
-.checkout-image {
-  width: 460px;
-}
 
 .call-section {
   display: flex;
