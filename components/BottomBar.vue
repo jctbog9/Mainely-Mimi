@@ -1,6 +1,6 @@
 <template>
   <div class="bottom-bar">
-    &copy; Mainely Mimi Quilt Shop 2020
+    &copy; Mainely Mimi Quilt Shop 2022
   </div>
 </template>
 
