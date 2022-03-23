@@ -78,8 +78,9 @@ export default {
   flex-direction: row;
   width: 100%;
   background-color: #ffffff;
-  height: 600px;
+  height: 100vh;
   overflow: hidden;
+  padding: 40px;
 }
 
 .contact-info-container {
