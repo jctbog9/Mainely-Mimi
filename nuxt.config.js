@@ -52,7 +52,8 @@ export default {
     icons: {
       solid: true,
       brands: true
-    }
+    },
+    autoAddCss: false,
   },
   /*
   ** Nuxt.js modules
