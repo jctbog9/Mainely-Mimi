@@ -1,7 +1,7 @@
 <template>
   <div class="mobile-nav-menu">
     <nuxt-link to="/" v-on:click.native="closeMobileNav" class="mobile-nav-item">Home</nuxt-link>
-    <nuxt-link to="/menu" v-on:click.native="closeMobileNav" class="mobile-nav-item">Menu</nuxt-link>
+    <nuxt-link to="/shop" v-on:click.native="closeMobileNav" class="mobile-nav-item">Inventory</nuxt-link>
     <nuxt-link to="/contact" v-on:click.native="closeMobileNav" class="mobile-nav-item">Contact</nuxt-link>
   </div>
 </template>
@@ -22,9 +22,9 @@ export default {
   font-size: 22px;
   font-weight: 600;
   padding: 20px;
-  color: #ffffff;
+  color: #000000;
   border-bottom: 2px solid #1E2025;
-  background-color: #444653;
+  background-color: #a8e4f5;
 }
 
 .mobile-nav-menu {
@@ -32,6 +32,6 @@ export default {
   flex-direction: column;
   height: 100vh;
   z-index: 999;
-  background-color: #686761;
+  background-image: url('/beach-wallpaper.jpg');
 }
 </style>
