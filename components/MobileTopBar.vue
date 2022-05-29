@@ -1,8 +1,13 @@
 <template>
   <div class="top-bar">
-    <div class="top-bar-right">
+    <div class="top-bar-left">
       <font-awesome-icon v-if="!showMobileNav" icon="bars" v-on:click="handleShowNav"/>
       <font-awesome-icon v-else icon="times" v-on:click="handleShowNav"/>
+    </div>
+    <div class="top-bar-right">
+      <div class="top-bar-right-content">
+        Mainely Mimi
+      </div>
     </div>
   </div>
 </template>
@@ -47,19 +52,27 @@ export default {
   display: flex;
   height: 75px;
   width: 100%;
-  background-color: #1e1f25;
+  background-color: #12A5BD;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.top-bar-right {
+.top-bar-left {
   margin: 20px;
   color: white;
 }
 
-.top-bar-left {
+.top-bar-right {
   align-items: center;
-  width: 300px;
+  margin: auto;
+}
+
+.top-bar-right-content {
+  margin-right: 40px;
+  font-family: cursive;
+  font-weight: 800;
+  font-size: 28px;
+  color: #000000;
 }
 </style>

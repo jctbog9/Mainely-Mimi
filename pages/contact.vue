@@ -29,14 +29,6 @@
       </div>
       <div class="contact-section-mobile">
         <div class="store-info-section">
-          <div class="call-section-mobile">
-            <div class="store-rules">
-              <h1>Pickup Only</h1>
-            </div>
-            <div class="store-rules">
-              <h1>Cash Only</h1>
-            </div>
-          </div>
           <contact-info />
         </div>
       </div>
@@ -67,7 +59,7 @@ export default {
   justify-content: center;
   align-items: center;
   height: 120px;
-  background-color: #E0BB34;
+  background-color: #a8e4f5;
   font-size: 16px;
   width: 100%;
   margin-bottom: 40px;
@@ -95,7 +87,7 @@ export default {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: rgba(168, 228, 245, 0.86);
 }
 
 .checkout-image-container {
