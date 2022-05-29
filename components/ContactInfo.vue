@@ -18,9 +18,9 @@
       <div>Saturday 9AM - 3PM</div>
       <div>Sunday 10AM - 2PM</div>
     </div>
-    <nuxt-link to="/shop">
-      <button class="custom-button">Shop Now</button>
-    </nuxt-link>
+    <a :href="`tel:${2072169750}`">
+      <button class="custom-button">Call Now</button>
+    </a>
   </div>
 </template>
 

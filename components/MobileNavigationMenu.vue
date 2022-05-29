@@ -1,7 +1,6 @@
 <template>
   <div class="mobile-nav-menu">
     <nuxt-link to="/" v-on:click.native="closeMobileNav" class="mobile-nav-item">Home</nuxt-link>
-    <nuxt-link to="/shop" v-on:click.native="closeMobileNav" class="mobile-nav-item">Inventory</nuxt-link>
     <nuxt-link to="/contact" v-on:click.native="closeMobileNav" class="mobile-nav-item">Contact</nuxt-link>
   </div>
 </template>

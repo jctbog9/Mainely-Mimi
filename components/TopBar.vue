@@ -7,7 +7,6 @@
         <div>Mimi</div>
       </nuxt-link>
     </div>
-    <nuxt-link to="/shop" class="nav-element">Inventory</nuxt-link>
     <nuxt-link to="/contact" class="nav-element">Contact</nuxt-link>
   </div>
 </template>
